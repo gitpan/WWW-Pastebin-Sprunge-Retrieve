@@ -1,0 +1,25 @@
+---
+abstract: 'Retrieves pastes from the sprunge.us pastebin'
+author:
+  - 'Mike Doherty <doherty@cs.dal.ca>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.102342, CPAN::Meta::Converter version 2.102400'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Pastebin-Sprunge-Retrieve
+requires:
+  URI: 0
+  WWW::Pastebin::Base::Retrieve: 0
+  perl: 5.006
+resources:
+  bugtracker: http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve/issues
+  repository: http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve
+version: 0.001
