@@ -3,9 +3,9 @@ use warnings;
 
 package WWW::Pastebin::Sprunge::Retrieve;
 BEGIN {
-  $WWW::Pastebin::Sprunge::Retrieve::VERSION = '0.001';
+  $WWW::Pastebin::Sprunge::Retrieve::VERSION = '0.002';
 }
-# ABSTRACT: Retrieves pastes from the sprunge.us pastebin
+# ABSTRACT: retrieves pastes from the sprunge.us pastebin
 
 use URI;
 use base 'WWW::Pastebin::Base::Retrieve';
@@ -53,13 +53,15 @@ sub content {
 
 =pod
 
+=encoding utf-8
+
 =head1 NAME
 
-WWW::Pastebin::Sprunge::Retrieve - Retrieves pastes from the sprunge.us pastebin
+WWW::Pastebin::Sprunge::Retrieve - retrieves pastes from the sprunge.us pastebin
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -193,8 +195,8 @@ The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
 site near you, or see L<http://search.cpan.org/dist/WWW-Pastebin-Sprunge-Retrieve/>.
 
-The development version lives at L<http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve>
-and may be cloned from L<git://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve>.
+The development version lives at L<http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve.git>
+and may be cloned from L<git://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve.git>.
 Instead of sending patches, please fork this project using the standard
 git and github infrastructure.
 
@@ -207,7 +209,7 @@ L<http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve/issues>.
 
 =head1 AUTHOR
 
-Mike Doherty <doherty@cs.dal.ca>
+Mike Doherty <doherty@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

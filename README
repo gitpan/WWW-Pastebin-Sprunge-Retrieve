@@ -1,9 +1,9 @@
 NAME
-    WWW::Pastebin::Sprunge::Retrieve - Retrieves pastes from the sprunge.us
+    WWW::Pastebin::Sprunge::Retrieve - retrieves pastes from the sprunge.us
     pastebin
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         use strict;
@@ -127,10 +127,11 @@ AVAILABILITY
     <http://search.cpan.org/dist/WWW-Pastebin-Sprunge-Retrieve/>.
 
     The development version lives at
-    <http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve> and may be
-    cloned from <git://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve>.
-    Instead of sending patches, please fork this project using the standard
-    git and github infrastructure.
+    <http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve.git> and may be
+    cloned from
+    <git://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve.git>. Instead of
+    sending patches, please fork this project using the standard git and
+    github infrastructure.
 
 BUGS AND LIMITATIONS
     No bugs have been reported.
@@ -139,7 +140,7 @@ BUGS AND LIMITATIONS
     <http://github.com/doherty/WWW-Pastebin-Sprunge-Retrieve/issues>.
 
 AUTHOR
-    Mike Doherty <doherty@cs.dal.ca>
+    Mike Doherty <doherty@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is Copyright (c) 2010 by Mike Doherty.
